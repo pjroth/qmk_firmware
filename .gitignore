@@ -1,4 +1,5 @@
-.dep
+*.iml
+*.dep
 *.o
 *.bin
 *.eep
