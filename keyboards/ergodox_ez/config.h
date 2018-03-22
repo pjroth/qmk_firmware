@@ -91,7 +91,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * 5, which is now closer to 10ms, but still plenty according to
  * manufacturer specs.
  *
- * Default is quite high, because of reports with some production
+ * Default is quite high at 15, because of reports with some production
  * runs seeming to need it. This may change when configuration for
  * this is more directly exposed.
  */
