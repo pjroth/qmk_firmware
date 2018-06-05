@@ -98,6 +98,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #define DEBOUNCE    5
 
+/* Use permissive hold to attempt to fix problem where fast typing of mod tap keys
+ * results in two keys such as zc instead of ctrl+c.
+ */
+#define PERMISSIVE_HOLD
+
 #define PREVENT_STUCK_MODIFIERS
 
 #define USB_MAX_POWER_CONSUMPTION 500
