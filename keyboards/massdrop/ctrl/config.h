@@ -57,6 +57,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
 )
 
+// This allows layer switching via a secondary layer.  See docs for details.
+#define PREVENT_STUCK_MODIFIERS
+
 /* Force boot in NKRO mode */
 //#define FORCE_NKRO
 
